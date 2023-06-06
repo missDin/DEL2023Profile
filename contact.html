@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content ="width=device-width,initial-scale=1.0"/>
+            <meta charset="utf-8"/>
+            <title>contact DEL</title>
+            <link rel="stylesheet"type="text/css"href="laycontact.css"/>
+        </head>
+        <script>
+            function copyEvent(id)
+            {
+                var str = document.getElementById(id);
+                window.getSelection().selectAllChildren(str);
+                document.execCommand("copy");
+                document.execCommand("copyy");
+                document.execCommand("copyyy");
+                document.execCommand("copyyyy");
+            }
+        </script>
+        <body class="bg">
+            <div class="mention">
+                <p>( click ✹ to copy! )</p>
+            </div>
+            <div class="center">
+                <div class="icons">
+                    <br><img src="./icons/gmail.png" class="ic1"></br>
+                    <br><img src="./icons/linkedin.png" class="ic2"></br>
+                    <br><img src="./icons/phone.png" class="ic3"></br>
+                </div>
+                <div class="font">
+                    <p id="copy">missdin16@gmail.com</p>
+                    <p id="copyy" style="letter-spacing: 2px;">www.linkedin.com/in/DEL-din</p>
+                    <p id="copyyy" style="letter-spacing: 10px;">0909-116991</p>
+                </div>
+                <div class="BUTTON">
+                    <br><button type="button" class="button1" onclick="copyEvent('copy')">✹</button></br>
+                    <br><button type="button" class="button2" onclick="copyEvent('copyy')">✹</button></br>
+                    <br><button type="button" class="button3" onclick="copyEvent('copyyy')">✹</button></br>
+                </div>
+            </div>
+            <div>
+                <div class="sw">
+                    <a href="file:///D:/yuntech/protofolio/%E7%B6%B2%E7%AB%99%E7%94%A8/DEL/cover.html">
+                        <img src="./icons/home button.png" class="round1">
+                    </a>
+                    <a href="file:///D:/yuntech/protofolio/%E7%B6%B2%E7%AB%99%E7%94%A8/DEL/works.html" >
+                        <img src="./icons/DEL button.png" class="round2">
+                    </a>
+                    <a href="file:///D:/yuntech/protofolio/%E7%B6%B2%E7%AB%99%E7%94%A8/DEL/aboutme.html" >
+                        <img src="./icons/about me button.png" class="round3">
+                    </a>
+                </div>
+                <!--
+                <div class="sw2">
+                    <div class="font2"><br> </br>home page</div>
+                    <div class="font2"><br> </br>portofolio</div>
+                    <div class="font2"><br> </br>about me</div>
+                </div>
+                -->
+            </div>
+            <div class="copyright">
+                <img src="COPYRIGHT.png" height="20">
+            </div>
+        </body>
+    </html>

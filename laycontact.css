@@ -1,0 +1,227 @@
+.bg{
+    background-image: url(contactme.png);
+    background-repeat: no-repeat;
+}
+.mention{
+    color: aliceblue;
+    letter-spacing: 5px;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;top:23%;left:40%;
+    margin-bottom: 35px;
+    animation: blink 1.5s infinite;
+}
+.center{
+    display: flex;
+    justify-items: center;
+    position: fixed;left:36%;top:32%;
+}
+.icons{
+    justify-items: center;
+    margin-right: 25px;
+}
+.ic1{
+    margin-top: 10px;
+    width:34px;
+}
+.ic2{
+    width:35px;
+}
+.ic3{
+    height:32px;
+}
+
+.font{
+    float: none;
+    color: aliceblue;
+    letter-spacing: 5px;
+    line-height: 38px;
+    font-size: 18px;
+    font-weight: 520;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.BUTTON{
+    line-height: 19px;
+}
+.button1{
+    font-size: 28px;
+    color: rgb(231, 239, 255);
+    width: 20px;
+    height: 20px;
+    background-color:rgba(243, 128, 186, 0);
+    border: none;
+}
+.button2{
+    font-size: 28px;
+    color: rgb(231, 239, 255);
+    width: 20px;
+    height: 20px;
+    background-color:rgba(243, 128, 186, 0);
+    border: none;
+}
+.button3{
+    font-size: 28px;
+    color: rgb(231, 239, 255);
+    width: 20px;
+    height: 20px;
+    background-color:rgba(243, 128, 186, 0);
+    border: none;
+}
+.button4{
+    font-size: 28px;
+    color: rgb(231, 239, 255);
+    width: 20px;
+    height: 20px;
+    background-color:rgba(243, 128, 186, 0);
+    border: none;
+}
+.sw{
+    display: flex;
+    margin-top: 30px;
+    position: fixed;left:60%;top:570px;
+}
+.sw2{
+    display: flex;
+    position: fixed;left:53.55%;top:660px;
+}
+.round1{
+    width:60px;
+    opacity: 0.5;
+    transition: opacity 1s;
+    margin: 15px;
+}
+.round1:hover{
+    opacity: 1;
+}
+.round2{
+    width:60px;
+    opacity: 0.5;
+    transition: opacity 1s;
+    margin: 15px;
+}
+.round2:hover{
+    opacity: 1;
+}
+.round3{
+    width:60px;
+    opacity: 0.5;
+    transition: opacity 1s;
+    margin: 15px;
+}
+.round3:hover{
+    opacity: 1;
+}
+.font2{
+    height: 50px;
+    user-select: none;
+    margin-left: 10px;
+    float: none;
+    font-size: 18px;
+    color: rgba(255, 251, 253, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    transition:1.5s;
+    text-align: center;
+    line-height: 15px;
+    position: relative;
+}
+.font2:hover{
+    color: rgba(253, 253, 253);
+}
+.copyright{
+    position: fixed;
+    right:30px;
+    bottom:10px;
+}
+a{
+    text-decoration: none;
+}
+
+ @keyframes blink{
+    0%{opacity:0}
+    50%{opacity:1}
+    100%{opacity:0}
+ }
+@media(max-width:1024px){
+    .bg{
+        background-color: rgb(245,158,202);
+    }
+    .mention{
+        position: absolute;top:23%;left:35%;
+    }
+    .center{
+        position: fixed;left:25%;right:25%;top:32%;
+    }
+    .sw{
+        margin-top: 30px;
+        position: fixed;left:35%;top:570px;
+    }
+    .font{
+        font-size: 16px;
+        margin-right: 15px;
+        white-space:nowrap;
+    }
+    .icons{
+        margin-right: 15px;
+    }
+}
+@media(max-width:520px){
+    .bg{
+        background-color: rgb(245,158,202);
+    }
+    .mention{
+        position: absolute;top:25%;left:23%;
+    }
+    .center{
+        position: fixed;left:10%;right:25%;top:32%;
+    }
+    .font{
+        letter-spacing: 3px;
+        line-height: 30px;
+        font-size: 13px;
+        margin-right: 10px;
+    }
+    .icons{
+        margin-right: 20px;
+        line-height: 14px;
+    }
+    .ic1{
+        margin-top: 5.2px;
+        width:28px;
+    }
+    .ic2{
+        margin-top: 2.2px;
+        width:28px;
+    }
+    .ic3{
+        height:26px;
+    }
+    .BUTTON{
+        line-height: 10px;
+    }
+    .sw{
+        margin-top: 30px;
+        position: fixed;left:15%;top:70%;
+    }
+    .button1{
+        margin-top: 1.5px;
+    }
+    .button2{
+        margin-top: 1.2px;
+    }
+    .button3{
+        margin-top: 1.2px;
+    }
+    .round1{
+        opacity: 1;
+    }
+    .round2{
+        opacity: 1;
+    }
+    .round3{
+        opacity: 1;
+    }
+    .copyright{
+        bottom:15px;
+    }
+}
